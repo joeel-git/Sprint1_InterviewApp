@@ -17,7 +17,7 @@ This is a fully functional **Interview Preparation App** developed using **Strea
 - [x] Single-page app built using Streamlit
 - [x] OpenAI API integration
 - [x] Modular project structure (with `main.py`, `openai_client.py`, `prompts.py`, etc.)
-- [x] Five different system prompts (Zero-shot, Few-shot, Chain-of-Thought)
+- [x] Three different system prompts (Zero-shot, Few-shot, Chain-of-Thought)
 - [x] Customizable temperature setting via slider
 - [x] Input validation using `guards.py`
 
