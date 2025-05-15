@@ -4,15 +4,15 @@ Practice personalized interview questions with AI using prompt engineering and O
 
 ---
 
-## 🚀 Description
+## Description
 
 This is a fully functional **Interview Preparation App** developed using **Streamlit** and **OpenAI's GPT-4o API**. The app generates personalized interview questions based on your topic or role input. It supports advanced prompt engineering techniques and customization, making it ideal for job seekers looking to simulate real interview scenarios.
 
 ---
 
-## ✅ Features Implemented
+## Features Implemented
 
-### 🎯 Core Requirements
+### Core Requirements
 
 - [x] Single-page app built using Streamlit
 - [x] OpenAI API integration
@@ -21,18 +21,18 @@ This is a fully functional **Interview Preparation App** developed using **Strea
 - [x] Customizable temperature setting via slider
 - [x] Input validation using `guards.py`
 
-### 🧪 Prompt Engineering Techniques
+### Prompt Engineering Techniques
 
 - [x] Zero-shot prompting
 - [x] Few-shot prompting (with examples)
 - [x] Chain-of-thought prompting (step-by-step reasoning)
 
-### 🔐 Security
+### Security
 
 - [x] Input validation (guards against empty or meaningless input)
 - [x] API key hidden via Streamlit Secrets (no hardcoded credentials)
 
-### 🧠 Customization Options (Sidebar)
+### Customization Options (Sidebar)
 
 - [x] Prompt style selection
 - [x] Difficulty level (Easy / Medium / Hard)
@@ -41,27 +41,27 @@ This is a fully functional **Interview Preparation App** developed using **Strea
 - [x] Number of questions (1–5)
 - [x] Dynamic `max_tokens` calculation based on question count and prompt style
 
-### 🌐 Deployment
+### Deployment
 
 - [x] Deployed to **Streamlit Cloud**
 
 ---
 
-## 🛠️ Optional Tasks Completed
+## Optional Tasks Completed
 
-### ✅ Easy Level
+### Easy Level
 
 - [x] Simulate different difficulty levels (Easy, Medium, Hard)
 - [x] Concise vs. detailed response styles
 - [x] Improve prompts for specific domains (data analyst / scientist)
 
-### ✅ Medium Level
+### Medium Level
 
 - [x] Dynamically bind `max_tokens` to number of questions
 - [x] Add slider controls for OpenAI temperature
 - [x] Deployed app on Streamlit Cloud
 
-### ⏳ Ignored Tasks / Not Planned
+### Ignored Tasks / Not Planned
 
 - [ ] Add RAG support for job description-based prep
 - [ ] Add multiple LLM support
@@ -71,7 +71,7 @@ This is a fully functional **Interview Preparation App** developed using **Strea
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```text
 📦 interview-practice-app
@@ -87,7 +87,7 @@ This is a fully functional **Interview Preparation App** developed using **Strea
 
 ---
 
-## 🧪 Example Use Case
+## Example Use Case
 
 1. Enter your topic: `Data Scientist`
 2. Choose prompt style: `Few-shot`
@@ -98,7 +98,7 @@ This is a fully functional **Interview Preparation App** developed using **Strea
 
 ---
 
-## 📦 Installation (Optional for Local Use)
+## Installation (Optional for Local Use)
 
 ```bash
 pip install -r requirements.txt
@@ -107,7 +107,7 @@ streamlit run main.py
 
 ---
 
-## 📣 Credits
+## Credits
 
 Created as part of the **AI Engineering Sprint 1** project on **Turing College**.
 
@@ -115,6 +115,6 @@ Created as part of the **AI Engineering Sprint 1** project on **Turing College**
 
 ## 📍Status
 
-✅ **Working and Deployed**
+**Working and Deployed**
 
 🔗 [Live App on Streamlit](https://data-interview-app.streamlit.app/)
